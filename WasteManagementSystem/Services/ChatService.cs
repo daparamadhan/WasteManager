@@ -3,14 +3,26 @@ using System.Net.Http;
 using System.Text;
 using System.Text.Json;
 using System.Threading.Tasks;
+using Microsoft.Extensions.Configuration;
+using System.IO;
 
 namespace WasteManagementSystem.Services
 {
     public class ChatService
     {
-        private readonly string _apiKey = "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";
+        private readonly string _apiKey;
         private readonly string _url = "https://api.groq.com/openai/v1/chat/completions";
         private static readonly HttpClient _client = new HttpClient();
+
+        public ChatService()
+        {
+            var config = new Microsoft.Extensions.Configuration.ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json", optional: true, reloadOnChange: true)
+                .Build();
+
+            _apiKey = config["Groq:ApiKey"] ?? "";
+        }
 
         public async Task<string> GetResponseAsync(string userPrompt)
         {

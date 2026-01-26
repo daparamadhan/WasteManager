@@ -79,3 +79,17 @@ G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\MongoDB.Dr
 G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\SharpCompress.dll
 G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Snappier.dll
 G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\ZstdSharp.dll
+G:\Testing AntiGravity\WasteManagementSystem\obj\Debug\net9.0-windows\WasteManagementSystem.sourcelink.json
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Abstractions.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.FileExtensions.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Configuration.Json.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.FileProviders.Abstractions.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.FileProviders.Physical.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.FileSystemGlobbing.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\Microsoft.Extensions.Primitives.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\System.IO.Pipelines.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\System.Text.Encodings.Web.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\System.Text.Json.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
+G:\Testing AntiGravity\WasteManagementSystem\bin\Debug\net9.0-windows\runtimes\win\lib\net9.0\System.Text.Encodings.Web.dll
