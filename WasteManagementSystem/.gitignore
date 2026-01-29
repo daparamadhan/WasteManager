@@ -1,8 +1,25 @@
 # .NET Core
 bin/
 obj/
+[Bb]in/
+[Oo]bj/
 *.user
 *.pdf
+*.exe
+*.dll
+*.pdb
+
+# IDE and Build Metadata
+.gemini/
+.msvc/
+*.db
+*.db-shm
+*.db-wal
+*.metadata.*
+*.projects.*
+*.strings.*
+CodeChunks.db
 
 # Secrets
 appsettings.json
+
