@@ -1,4 +1,5 @@
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 using WasteManagementSystem.Models;
 using WasteManagementSystem.Services;
@@ -47,6 +48,16 @@ namespace WasteManagementSystem.Forms
         private void lnkLogin_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
             this.Close();
+        }
+
+        private void btnRegister_MouseEnter(object sender, EventArgs e)
+        {
+            btnRegister.BackColor = Color.FromArgb(61, 90, 90);
+        }
+
+        private void btnRegister_MouseLeave(object sender, EventArgs e)
+        {
+            btnRegister.BackColor = Color.FromArgb(47, 79, 79);
         }
     }
 }

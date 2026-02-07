@@ -1,4 +1,5 @@
 using System;
+using System.Drawing;
 using System.Windows.Forms;
 using WasteManagementSystem.Services;
 
@@ -39,6 +40,16 @@ namespace WasteManagementSystem.Forms
             this.Hide();
             regForm.ShowDialog();
             this.Show();
+        }
+
+        private void btnLogin_MouseEnter(object sender, EventArgs e)
+        {
+            btnLogin.BackColor = Color.FromArgb(61, 90, 90);
+        }
+
+        private void btnLogin_MouseLeave(object sender, EventArgs e)
+        {
+            btnLogin.BackColor = Color.FromArgb(47, 79, 79);
         }
     }
 }

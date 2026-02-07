@@ -35,7 +35,7 @@ namespace WasteManagementSystem.Forms
             // 
             // pnlSidebar
             // 
-            this.pnlSidebar.BackColor = System.Drawing.Color.SeaGreen;
+            this.pnlSidebar.BackColor = System.Drawing.Color.FromArgb(47, 79, 79);
             this.pnlSidebar.Controls.Add(this.btnLogout);
             this.pnlSidebar.Controls.Add(this.btnChat);
             this.pnlSidebar.Controls.Add(this.btnMaps);
@@ -52,7 +52,7 @@ namespace WasteManagementSystem.Forms
             // 
             this.btnLogout.Dock = System.Windows.Forms.DockStyle.Bottom;
             this.btnLogout.FlatAppearance.BorderSize = 0;
-            this.btnLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.IndianRed;
+            this.btnLogout.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(200, 90, 84);
             this.btnLogout.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnLogout.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnLogout.ForeColor = System.Drawing.Color.White;
@@ -61,7 +61,7 @@ namespace WasteManagementSystem.Forms
             this.btnLogout.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnLogout.Size = new System.Drawing.Size(220, 50);
             this.btnLogout.TabIndex = 5;
-            this.btnLogout.Text = "Logout";
+            this.btnLogout.Text = "🚪  Logout";
             this.btnLogout.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnLogout.UseVisualStyleBackColor = true;
             this.btnLogout.Click += new System.EventHandler(this.btnLogout_Click);
@@ -70,7 +70,7 @@ namespace WasteManagementSystem.Forms
             // 
             this.btnChat.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnChat.FlatAppearance.BorderSize = 0;
-            this.btnChat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnChat.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(61, 90, 90);
             this.btnChat.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnChat.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnChat.ForeColor = System.Drawing.Color.White;
@@ -80,7 +80,7 @@ namespace WasteManagementSystem.Forms
             this.btnChat.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnChat.Size = new System.Drawing.Size(220, 50);
             this.btnChat.TabIndex = 4;
-            this.btnChat.Text = "Chat AI";
+            this.btnChat.Text = "💬  Asisten AI";
             this.btnChat.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnChat.UseVisualStyleBackColor = true;
             this.btnChat.Click += new System.EventHandler(this.btnChat_Click);
@@ -89,7 +89,7 @@ namespace WasteManagementSystem.Forms
             // 
             this.btnMaps.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnMaps.FlatAppearance.BorderSize = 0;
-            this.btnMaps.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnMaps.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(61, 90, 90);
             this.btnMaps.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnMaps.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnMaps.ForeColor = System.Drawing.Color.White;
@@ -98,7 +98,7 @@ namespace WasteManagementSystem.Forms
             this.btnMaps.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnMaps.Size = new System.Drawing.Size(220, 50);
             this.btnMaps.TabIndex = 3;
-            this.btnMaps.Text = "Peta Lokasi";
+            this.btnMaps.Text = "🗺️  Peta Lokasi";
             this.btnMaps.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnMaps.UseVisualStyleBackColor = true;
             this.btnMaps.Click += new System.EventHandler(this.btnMaps_Click);
@@ -107,7 +107,7 @@ namespace WasteManagementSystem.Forms
             // 
             this.btnWaste.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnWaste.FlatAppearance.BorderSize = 0;
-            this.btnWaste.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnWaste.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(61, 90, 90);
             this.btnWaste.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnWaste.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnWaste.ForeColor = System.Drawing.Color.White;
@@ -116,7 +116,7 @@ namespace WasteManagementSystem.Forms
             this.btnWaste.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnWaste.Size = new System.Drawing.Size(220, 50);
             this.btnWaste.TabIndex = 2;
-            this.btnWaste.Text = "Manajemen Sampah";
+            this.btnWaste.Text = "🗑️  Data Sampah";
             this.btnWaste.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnWaste.UseVisualStyleBackColor = true;
             this.btnWaste.Click += new System.EventHandler(this.btnWaste_Click);
@@ -125,7 +125,7 @@ namespace WasteManagementSystem.Forms
             // 
             this.btnDashboard.Dock = System.Windows.Forms.DockStyle.Top;
             this.btnDashboard.FlatAppearance.BorderSize = 0;
-            this.btnDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.MediumSeaGreen;
+            this.btnDashboard.FlatAppearance.MouseOverBackColor = System.Drawing.Color.FromArgb(61, 90, 90);
             this.btnDashboard.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnDashboard.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
             this.btnDashboard.ForeColor = System.Drawing.Color.White;
@@ -134,14 +134,14 @@ namespace WasteManagementSystem.Forms
             this.btnDashboard.Padding = new System.Windows.Forms.Padding(10, 0, 0, 0);
             this.btnDashboard.Size = new System.Drawing.Size(220, 50);
             this.btnDashboard.TabIndex = 1;
-            this.btnDashboard.Text = "Dashboard";
+            this.btnDashboard.Text = "📊  Dashboard";
             this.btnDashboard.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             this.btnDashboard.UseVisualStyleBackColor = true;
             this.btnDashboard.Click += new System.EventHandler(this.btnDashboard_Click);
             // 
             // pnlLogo
             // 
-            this.pnlLogo.BackColor = System.Drawing.Color.DarkSeaGreen;
+            this.pnlLogo.BackColor = System.Drawing.Color.FromArgb(35, 60, 60);
             this.pnlLogo.Controls.Add(this.lblLogo);
             this.pnlLogo.Dock = System.Windows.Forms.DockStyle.Top;
             this.pnlLogo.Location = new System.Drawing.Point(0, 0);
@@ -151,14 +151,15 @@ namespace WasteManagementSystem.Forms
             // 
             // lblLogo
             // 
-            this.lblLogo.AutoSize = true;
-            this.lblLogo.Font = new System.Drawing.Font("Segoe UI", 14F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
+            this.lblLogo.AutoSize = false;
+            this.lblLogo.Font = new System.Drawing.Font("Segoe UI", 13F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
             this.lblLogo.ForeColor = System.Drawing.Color.White;
-            this.lblLogo.Location = new System.Drawing.Point(40, 25);
+            this.lblLogo.Location = new System.Drawing.Point(0, 20);
             this.lblLogo.Name = "lblLogo";
-            this.lblLogo.Size = new System.Drawing.Size(140, 25);
+            this.lblLogo.Size = new System.Drawing.Size(220, 40);
             this.lblLogo.TabIndex = 0;
-            this.lblLogo.Text = "Waste System";
+            this.lblLogo.Text = "BANK SAMPAH";
+            this.lblLogo.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // pnlHeader
             // 

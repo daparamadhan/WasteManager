@@ -63,16 +63,16 @@ namespace WasteManagementSystem.Forms
 
         private void SetActiveButton(Button activeButton)
         {
-            // Reset all
-            btnDashboard.BackColor = Color.SeaGreen;
-            btnWaste.BackColor = Color.SeaGreen;
-            btnMaps.BackColor = Color.SeaGreen;
-            btnChat.BackColor = Color.SeaGreen;
+            // Reset all to base dark green
+            btnDashboard.BackColor = Color.FromArgb(47, 79, 79);
+            btnWaste.BackColor = Color.FromArgb(47, 79, 79);
+            btnMaps.BackColor = Color.FromArgb(47, 79, 79);
+            btnChat.BackColor = Color.FromArgb(47, 79, 79);
 
-            // Set active
+            // Set active to lighter shade
             if (activeButton != null)
             {
-                activeButton.BackColor = Color.DarkSeaGreen;
+                activeButton.BackColor = Color.FromArgb(74, 107, 107);
             }
         }
 
