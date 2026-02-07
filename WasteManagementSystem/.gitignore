@@ -10,6 +10,7 @@ obj/
 *.pdb
 
 # IDE and Build Metadata
+.vs/
 .gemini/
 .msvc/
 *.db
@@ -18,8 +19,11 @@ obj/
 *.metadata.*
 *.projects.*
 *.strings.*
+*.v9.bin
 CodeChunks.db
+SemanticSymbols.db
 
 # Secrets
 appsettings.json
+
 
