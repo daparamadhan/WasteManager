@@ -1,27 +1,55 @@
 using MongoDB.Driver;
 using WasteManagementSystem.Models;
+using Microsoft.Extensions.Configuration;
 
 namespace WasteManagementSystem.Data
 {
     public static class DatabaseHelper
     {
-        // Placeholder - USER NEEDS TO UPDATE THIS
-        public static string ConnectionString = "mongodb+srv://teman_dapa:ijal1234@jabar.mgjaupi.mongodb.net/?retryWrites=true&w=majority&appName=Jabar";
+        private static string? _connectionString;
         private static string DatabaseName = "WasteManagement";
 
-        private static IMongoDatabase _database;
+        private static IMongoDatabase? _database;
 
         public static void InitializeDatabase()
         {
-            var client = new MongoClient(ConnectionString);
-            _database = client.GetDatabase(DatabaseName);
+            // Load configuration from appsettings.json
+            var config = new ConfigurationBuilder()
+                .SetBasePath(AppDomain.CurrentDomain.BaseDirectory)
+                .AddJsonFile("appsettings.json", optional: false, reloadOnChange: false)
+                .Build();
+
+            _connectionString = config["MongoDB:ConnectionString"];
+
+            if (string.IsNullOrEmpty(_connectionString))
+            {
+                throw new InvalidOperationException(
+                    "MongoDB connection string not found in appsettings.json. " +
+                    "Please ensure MongoDB:ConnectionString is configured.");
+            }
+
+            try
+            {
+                var client = new MongoClient(_connectionString);
+                _database = client.GetDatabase(DatabaseName);
+
+                // Verify connection
+                var adminDb = client.GetDatabase("admin");
+                adminDb.RunCommand<dynamic>(new MongoDB.Bson.BsonDocument("ping", 1));
+            }
+            catch (Exception ex)
+            {
+                throw new InvalidOperationException(
+                    "Failed to connect to MongoDB. Please verify your connection string in appsettings.json.",
+                    ex);
+            }
             
             // Seed Admin
             if (Users.CountDocuments(u => u.Username == "admin") == 0)
             {
                 Users.InsertOne(new User {
                     Username = "admin",
-                    PasswordHash = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918", // "admin" logic
+                    PasswordHash = "8c6976e5b5410415bde908bd4dee15dfb167a9c873fc4bb8a81f6f2ab448a918", // SHA256("admin")
                     Role = "Admin",
                     FullName = "Administrator",
                     Address = "HQ",
@@ -74,7 +102,30 @@ namespace WasteManagementSystem.Data
             }
         }
 
-        public static IMongoCollection<User> Users => _database.GetCollection<User>("Users");
-        public static IMongoCollection<WasteEntry> WasteEntries => _database.GetCollection<WasteEntry>("WasteEntries");
+        public static IMongoCollection<User> Users
+        {
+            get
+            {
+                if (_database == null)
+                {
+                    throw new InvalidOperationException(
+                        "Database has not been initialized. Call InitializeDatabase() first.");
+                }
+                return _database.GetCollection<User>("Users");
+            }
+        }
+
+        public static IMongoCollection<WasteEntry> WasteEntries
+        {
+            get
+            {
+                if (_database == null)
+                {
+                    throw new InvalidOperationException(
+                        "Database has not been initialized. Call InitializeDatabase() first.");
+                }
+                return _database.GetCollection<WasteEntry>("WasteEntries");
+            }
+        }
     }
 }

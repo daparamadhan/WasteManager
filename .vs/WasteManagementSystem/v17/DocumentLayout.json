@@ -1,0 +1,85 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "G:\\Testing AntiGravity\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|g:\\testing antigravity\\wastemanagementsystem\\data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|g:\\testing antigravity\\wastemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|g:\\testing antigravity\\wastemanagementsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\form1.designer.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|G:\\Testing AntiGravity\\wastemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{7701C16D-52EE-4E74-B82B-8C86DF0A5A86}|WasteManagementSystem\\WasteManagementSystem.csproj|solutionrelative:wastemanagementsystem\\form1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "G:\\Testing AntiGravity\\WasteManagementSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "WasteManagementSystem\\appsettings.json",
+              "ToolTip": "G:\\Testing AntiGravity\\WasteManagementSystem\\appsettings.json",
+              "RelativeToolTip": "WasteManagementSystem\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-02-07T12:28:25.907Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "G:\\Testing AntiGravity\\WasteManagementSystem\\Data\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "WasteManagementSystem\\Data\\DatabaseHelper.cs",
+              "ToolTip": "G:\\Testing AntiGravity\\WasteManagementSystem\\Data\\DatabaseHelper.cs",
+              "RelativeToolTip": "WasteManagementSystem\\Data\\DatabaseHelper.cs",
+              "ViewState": "AgIAAEsAAAAAAAAAAAAiwAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:23:31.823Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Form1.Designer.cs",
+              "DocumentMoniker": "G:\\Testing AntiGravity\\WasteManagementSystem\\Form1.Designer.cs",
+              "RelativeDocumentMoniker": "WasteManagementSystem\\Form1.Designer.cs",
+              "ToolTip": "G:\\Testing AntiGravity\\WasteManagementSystem\\Form1.Designer.cs",
+              "RelativeToolTip": "WasteManagementSystem\\Form1.Designer.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:22:43.674Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Form1.cs [Design]",
+              "DocumentMoniker": "G:\\Testing AntiGravity\\WasteManagementSystem\\Form1.cs",
+              "RelativeDocumentMoniker": "WasteManagementSystem\\Form1.cs",
+              "ToolTip": "G:\\Testing AntiGravity\\WasteManagementSystem\\Form1.cs [Design]",
+              "RelativeToolTip": "WasteManagementSystem\\Form1.cs [Design]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-29T13:22:18.439Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
